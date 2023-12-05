@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;700&display=swap');
+
+/* reset styles */
+* {
+    color: inherit;
+    margin: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Hero styles */
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 500px;
+    background-color: #A72800;
+    color: #fff;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1282px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.sam-altman {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 185px;
+    letter-spacing: 2.4px;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 150px;
+    color: #FFF;
+}
+
+.wrapper-hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+
+
+.hero_info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 380px;
+    height: 220px;
+}
+
+.hero-info p {
+    font-size: 20px;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 29px;
+    letter-spacing: 0.4px;
+    color: #FFF;
+}
+
+.hero-info h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.avatar {
+    width: 476px;
+    height: 476px;
+    border-radius: 50%;
+}
+
+.fox-container {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    align-items: center;
+}
+
+.foxminded {
+    background-image: url(img/logo_foxmided.png);
+    width: 205.204px;
+    height: 35.828px;
+}
+
+.fox-img {
+    background-image: url(img/Fox.png);
+    width: 347.132px;
+    height: 243.326px;
+    margin-bottom: 50px;
+}
+
+/* Career section styles */
+
+.career {
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 35px;
+    letter-spacing: 0.48px;
+    padding-bottom: 30px;
+    color: #000;
+}
+
+.heading-story {
+    margin-top: 240px;
+    margin-bottom: 25px;
+}
+
+.heading-story h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 67px;
+    color: #000;
+    background-color: #D9D9D9;
+}
+
+/* Work section styles */
+
+.work {
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.companies {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 300px;
+    max-height: 300px;
+    min-height: 200px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    color: #000;
+    background-color: #D9D9D9;
+}
+
+.companies li {
+    list-style-type: disc;
+    cursor: pointer;
+}
+
+/* Footer section styles */
+
+.attribution {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    background-color: #A72800;  
+}
